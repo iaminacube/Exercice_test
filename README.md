@@ -2,6 +2,17 @@ This File intents to Show the tables i created and their column description
 
 
 
+### Schema Write-up ####
+
+- I based my model in the ideia of having all available data in one place, able to be scaled with more facts and/or dimensions 
+- Easy access and ability  to model data for data vizualisation 
+
+**Question**: "scalability of the proposed model (e.g., what if we start renting to businesses? would that change anything?)"
+
+**Answer**: in tnis model we can add mode dimensions to adjust or scale up. adding a business as a type , would mean adding one more value to "unit_type_id"
+
+
+
 ### Table and Decription ###
 
 **Property_Unit**
